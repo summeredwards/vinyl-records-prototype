@@ -1,0 +1,40 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"album1 album2 album3 album4";
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#album1{
+	grid-area: album1;
+	margin: 0 auto;
+}
+
+#album2{
+	grid-area: album2;
+	margin: 0 auto;
+}
+
+#album3{
+	grid-area: album3;
+	margin: 0 auto;
+}
+
+#album4{
+	grid-area: album4;
+	margin: 0 auto;
+}
+
+#turntable{
+	width: 400px;
+	padding-top: 175px;
+	margin: 0 auto;
+}
